@@ -19,6 +19,31 @@
   <img src="https://raw.githubusercontent.com/LiveQiu/Jlink-daplink-stlink-MCU-alternatives/main/img/jlink-ob-tkmk-top.png" width="250px" />
   <img src="https://raw.githubusercontent.com/LiveQiu/Jlink-daplink-stlink-MCU-alternatives/main/img/jlink-ob-tkmk-bottom.png" width="250px" />
 
+## 测试MCU主控方案
+
+- Jlink-ob STM32F103测试，注意区分C8T6和CBT6，注意查看后缀
+
+  |  MCU方案测试  | 固件(09版本) | 固件(最新) | 失败原因 | Jlink软件版本 | 购入方式 | 购入价格 | 推荐  |
+  | :-----------: | :----------: | :--------: | :------: | :-----------: | :------: | :------: | :---: |
+  | STM32F103C8T6 |     PASS     |    PASS    |          |     V6.98     | 淘宝翻新 | 4-5 CNY  |   √   |
+  | AIR32F103CBT6 |     PASS     |    FAIL    | USB FAIL |     V6.98     | 淘宝合宙 | 4.8 CNY  |   ×   |
+  | APM32F103CBT6 |     PASS     |    PASS    |          |     V6.98     |   淘宝   | 3.5 CNY  |   √   |
+  | APM32F103C8T6 |     PASS     |    FAIL    | USB FAIL |     V6.98     |   淘宝   | 3.5 CNY  |   ×   |
+
+## 待完成
+
+- Jlink-ob STM32F072系列（串口）
+- Jlink-ob STM32F103 增加TBU6的更新
+- DAPlink的更新测试
+- Jlink更新测试
+- STlink更新测试
+
+## 作者 ThinkerMaker
+
+- [Thinkermaker Bilibili](https://space.bilibili.com/11945069)
+- [Thinkermaker Github](https://github.com/LiveQiu)
+- [Thinkermaker website](https://thinkermaker.xyz)
+
 ## 参考项目
 
 - [JLink-OB_32f103 立创开源项目-作者LSanor](https://oshwhub.com/LSanor/jlink-ob_32f103)
