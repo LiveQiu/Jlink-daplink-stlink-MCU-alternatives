@@ -23,12 +23,12 @@
 
 - Jlink-ob STM32F103 test, pay attention to distinguish between C8T6 and CBT6, pay attention to look at the suffix
 
-  |      MCU      | Firmware (2009) | Firmware (Latest) | Reason for failure | Software version | Place of purchase |  Price  | Recommend |
-  | :-----------: | :-------------: | :---------------: | :----------------: | :--------------: | :---------------: | :-----: | :-------: |
-  | STM32F103C8T6 |      PASS       |       PASS        |                    |      V6.98       | Refurbished chips | 4-5 CNY |     √     |
-  | AIR32F103CBT6 |      PASS       |       FAIL        |      USB FAIL      |      V6.98       |   Taobao Luatos   | 4.8 CNY |     ×     |
-  | APM32F103CBT6 |      PASS       |       PASS        |                    |      V6.98       |      Taobao       | 3.5 CNY |     √     |
-  | APM32F103C8T6 |      PASS       |       FAIL        |      USB FAIL      |      V6.98       |      Taobao       | 3.5 CNY |     ×     |
+|      MCU      | Firmware (2009) | Firmware (Latest) | Reason for failure | Software version | Place of purchase |  Price  | Recommend |
+| :-----------: | :-------------: | :---------------: | :----------------: | :--------------: | :---------------: | :-----: | :-------: |
+| STM32F103C8T6 |      PASS       |       PASS        |                    |      V6.98       | Refurbished chips | 4-5 CNY |     √     |
+| AIR32F103CBT6 |      PASS       |       FAIL        |      USB FAIL      |      V6.98       |   Taobao Luatos   | 4.8 CNY |     ×     |
+| APM32F103CBT6 |      PASS       |       PASS        |                    |      V6.98       |      Taobao       | 3.5 CNY |     √     |
+| APM32F103C8T6 |      PASS       |       FAIL        |      USB FAIL      |      V6.98       |      Taobao       | 3.5 CNY |     ×     |
 
 ## TODO
 
